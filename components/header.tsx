@@ -8,28 +8,6 @@ export default function Header() {
         <div className="font-bold text-white text-xl tracking-tight">Minisend</div>
       </div>
 
-      {/* Navigation */}
-      <nav className="flex items-center space-x-2">
-        <a
-          href="#"
-          className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
-        >
-          Features
-        </a>
-        <a
-          href="#"
-          className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
-        >
-          How it works
-        </a>
-        <a
-          href="#"
-          className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
-        >
-          About
-        </a>
-      </nav>
-
       {/* CTA Button */}
       <a
         href="https://app.minisend.xyz"
