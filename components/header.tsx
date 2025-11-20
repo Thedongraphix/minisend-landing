@@ -10,7 +10,7 @@ export default function Header() {
 
       {/* CTA Button */}
       <a
-        href="https://app.minisend.xyz"
+        href="https://farcaster.xyz/miniapps/pXYzGNnbBFu6/minisend"
         target="_blank"
         rel="noopener noreferrer"
         id="gooey-btn"
@@ -23,7 +23,7 @@ export default function Header() {
           </svg>
         </span>
         <span className="px-6 py-2 rounded-full bg-white text-black font-normal text-xs transition-all duration-300 hover:bg-white/90 cursor-pointer h-8 flex items-center z-10">
-          Launch App
+          Launch Miniapp
         </span>
       </a>
     </header>
