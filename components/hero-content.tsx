@@ -23,8 +23,7 @@ export default function HeroContent() {
 
         {/* Description */}
         <p className="text-xs sm:text-sm font-light text-white/70 mb-4 sm:mb-6 leading-relaxed max-w-lg">
-          Convert your USDC earnings to Nigerian Naira or Kenyan Shillings instantly. Built for creators on Farcaster and
-          BaseApp.
+          Onchain earnings truly spendable for creators
         </p>
 
         {/* Buttons */}

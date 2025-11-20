@@ -8,13 +8,8 @@ export default function FeaturesSection() {
       metric: "Speed",
     },
     {
-      stat: "Zero KYC",
-      description: "Seamless experience, no paperwork",
-      metric: "Simplicity",
-    },
-    {
       stat: "Direct Bank",
-      description: "Funds sent to your local bank account",
+      description: "Funds sent to your local bank account(32banks in Nigeria)",
       metric: "Reliability",
     },
     {
