@@ -12,7 +12,6 @@ export default function MinisendApp() {
       <ShaderBackground>
         <Header />
         <HeroContent />
-        <PulsingCircle />
       </ShaderBackground>
       <FeaturesSection />
     </div>
