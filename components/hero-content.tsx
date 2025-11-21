@@ -2,7 +2,7 @@
 
 export default function HeroContent() {
   return (
-    <main className="absolute top-20 left-4 right-4 sm:top-28 sm:left-8 sm:right-auto z-20 max-w-full sm:max-w-3xl px-2">
+    <main className="absolute top-32 left-4 right-4 sm:top-28 sm:left-8 sm:right-auto z-20 max-w-full sm:max-w-3xl px-2">
       <div className="text-left">
         <div
           className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 backdrop-blur-sm mb-5 sm:mb-6 relative"
