@@ -16,14 +16,14 @@ export default function HeroContent() {
 
         {/* Main Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tight font-light text-white mb-4 sm:mb-6 leading-tight">
-          <span className="font-medium italic instrument">Offramp</span> USDC in
+          <span className="font-light tracking-tight text-white">Onchain earnings truly</span>
           <br />
-          <span className="font-light tracking-tight text-white">Less than 60 Seconds</span>
+          <span className="font-medium italic instrument">spendable</span> <span className="font-light tracking-tight text-white">for creators</span>
         </h1>
 
         {/* Description */}
         <p className="text-xs sm:text-sm font-light text-white/70 mb-4 sm:mb-6 leading-relaxed max-w-lg">
-          Onchain earnings truly spendable for creators
+          Convert your USDC earnings to local currency in seconds
         </p>
 
         {/* Buttons */}
