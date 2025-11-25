@@ -19,10 +19,7 @@ export const cardsInfo = [
 ];
 
 export const stats = [
-  {
-    number: '2',
-    subtitle: 'countries',
-  },
+
   {
     number: '2',
     subtitle: 'currencies',
