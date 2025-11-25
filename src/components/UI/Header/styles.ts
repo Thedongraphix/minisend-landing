@@ -4,7 +4,6 @@ import { styled } from 'styled-components';
 
 export const Wrapper = styled.section`
   padding: 1rem 0;
-  border-bottom: 0.5px solid #3d3d3d;
 
   @media (max-width: 768px) {
     padding: 0.75rem 0;
@@ -18,9 +17,16 @@ export const Inner = styled.div`
   width: 90%;
   max-width: 1440px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    gap: 1rem; /* Add spacing between logo and hamburger */
+  }
 `;
 
 export const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+
   img {
     width: auto;
     height: 4.5rem; /* Desktop logo size - adjust this value to make logo bigger/smaller */
@@ -28,10 +34,7 @@ export const LogoContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    flex: 0 0 auto; /* Prevent logo from stretching */
 
     img {
       height: 4.5rem; /* Mobile logo size - adjust this value for mobile */
@@ -44,17 +47,21 @@ export const BurgerMenu = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0.5rem;
+    margin-left: auto; /* Push to the right */
 
     div {
       position: absolute;
-      background: var(--emerald);
-      width: '250px';
-      height: '300px';
+      background: var(--purple);
+      width: 250px;
+      height: 300px;
       border-radius: 25px;
       z-index: 1;
-      top: 50px;
+      top: -10px;
+      right: -10px;
     }
 
     img {
