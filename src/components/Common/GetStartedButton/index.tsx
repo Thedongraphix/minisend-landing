@@ -1,17 +1,27 @@
 import Link from 'next/link';
 import { LinkTo } from './styles';
 
-const GetStartedButton = ({ padding }: { padding: string }) => {
+interface GetStartedButtonProps {
+  padding: string;
+  text?: string;
+  href?: string;
+}
+
+const GetStartedButton = ({
+  padding,
+  text = 'Launch App',
+  href = 'https://app.minisend.xyz'
+}: GetStartedButtonProps) => {
   return (
     <LinkTo
       style={{
         padding: padding,
       }}
-      href="https://app.minisend.xyz"
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
     >
-      Launch App
+      {text}
     </LinkTo>
   );
 };

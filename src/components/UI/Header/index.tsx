@@ -40,7 +40,11 @@ const Header = () => {
           ))}
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>
-          <GetStartedButton padding="0.5rem 0.75rem" />
+          <GetStartedButton
+            padding="0.5rem 0.75rem"
+            text="Join Us"
+            href="https://t.me/minisendapp"
+          />
         </CallToActions>
       </Inner>
     </Wrapper>
