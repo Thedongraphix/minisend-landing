@@ -80,7 +80,7 @@ const Footer = () => {
             </Translator>
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-             Built on Base.
+             Minisend 
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>
