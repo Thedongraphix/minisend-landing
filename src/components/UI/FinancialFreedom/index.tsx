@@ -9,6 +9,8 @@ import {
   Edge,
   Title,
   BriefNote,
+  VolumeStats,
+  VolumeStat,
 } from './styles';
 import MaskText from '@/components/Common/MaskText';
 import RevealCover from '@/components/Common/RevealCover';
@@ -25,6 +27,7 @@ import {
   mobileBriefNotePhrase,
   mobileHeaderPhrase,
   mobileParagraphPhrase,
+  volumeStats,
 } from './constants';
 
 const FinancialFreedom = () => {
@@ -33,6 +36,14 @@ const FinancialFreedom = () => {
   return (
     <Wrapper>
       <Inner>
+        <VolumeStats>
+          {volumeStats.map((stat, i) => (
+            <VolumeStat key={i}>
+              <h1>{stat.number}</h1>
+              <p>{stat.subtitle}</p>
+            </VolumeStat>
+          ))}
+        </VolumeStats>
         <Header>
           {isMobile ? (
             <>

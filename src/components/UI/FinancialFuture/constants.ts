@@ -22,14 +22,10 @@ export const stats = [
   {
     number: '2',
     subtitle: 'countries',
-    showFlag: true,
-    flags: ['🇰🇪', '🇳🇬'], // Kenya and Nigeria flags
   },
   {
-    number: 'KES & NGN',
+    number: '2',
     subtitle: 'currencies',
-    showFlag: true,
-    flags: ['🇰🇪', '🇳🇬'],
   },
   {
     number: '',

@@ -22,6 +22,52 @@ export const Inner = styled.div`
   }
 `;
 
+export const VolumeStats = styled.div`
+  margin: 0 auto 6.25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 3.75rem;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+`;
+
+export const VolumeStat = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--purple);
+  }
+
+  p {
+    color: var(--link-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+`;
+
 export const Header = styled.header`
   display: flex;
   flex-direction: column;

@@ -3,6 +3,22 @@ import ic_banknotes from '../../../../public/svgs/ic_banknotes.svg';
 import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
+// Volume Stats
+export const volumeStats = [
+  {
+    number: '$100K+',
+    subtitle: 'volume',
+  },
+  {
+    number: '1K+',
+    subtitle: 'users',
+  },
+  {
+    number: '3K+',
+    subtitle: 'transactions on Base',
+  },
+];
+
 // For desktop
 export const desktopHeaderPhrase = ['Making Crypto', 'Truly Spendable'];
 export const desktopParagraphPhrase = [

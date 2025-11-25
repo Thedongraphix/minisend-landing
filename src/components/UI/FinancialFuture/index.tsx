@@ -68,10 +68,6 @@ const FinancialFuture = () => {
                     style={{ height: '100%', width: 'auto', objectFit: 'contain' }}
                   />
                 </div>
-              ) : stat.showFlag && stat.flags ? (
-                <h1 style={{ fontSize: isMobile ? '2rem' : '4rem' }}>
-                  {stat.flags.join(' ')}
-                </h1>
               ) : (
                 <MaskText phrases={new Array(stat.number)} tag="h1" />
               )}
