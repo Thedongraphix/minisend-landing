@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import minisend_white from '../../../../public/brandkit/minisend-white.png';
-import qr_code from '../../../../public/svgs/qr_code.svg';
+import qr_code from '../../../../public/svgs/qr-code.jpeg';
 import ic_google_playstore from '../../../../public/svgs/ic_google_playstore.svg';
 import ic_baseline_apple from '../../../../public/svgs/ic_baseline_apple.svg';
 import ic_chevron_down from '../../../../public/svgs/ic_chevron_down.svg';
@@ -80,7 +80,7 @@ const Footer = () => {
             </Translator>
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Minisend. Built on Base.
+             Built on Base.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>
