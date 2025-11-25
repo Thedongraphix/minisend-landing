@@ -23,7 +23,7 @@ export const Inner = styled.div`
 export const LogoContainer = styled.div`
   img {
     width: auto;
-    height: 3.5rem; /* Desktop logo size - adjust this value to make logo bigger/smaller */
+    height: 4.5rem; /* Desktop logo size - adjust this value to make logo bigger/smaller */
     object-fit: contain;
   }
 
@@ -34,7 +34,7 @@ export const LogoContainer = styled.div`
     width: 100%;
 
     img {
-      height: 2.5rem; /* Mobile logo size - adjust this value for mobile */
+      height: 4.5rem; /* Mobile logo size - adjust this value for mobile */
     }
   }
 `;
