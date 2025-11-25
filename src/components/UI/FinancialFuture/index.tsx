@@ -60,7 +60,21 @@ const FinancialFuture = () => {
         <Stats>
           {stats.map((stat, i) => (
             <Stat key={i}>
-              <MaskText phrases={new Array(stat.number)} tag="h1" />
+              {stat.isLogo && stat.logo ? (
+                <div style={{ height: isMobile ? '2rem' : '4rem', display: 'flex', alignItems: 'center' }}>
+                  <Image
+                    src={stat.logo}
+                    alt={stat.subtitle}
+                    style={{ height: '100%', width: 'auto', objectFit: 'contain' }}
+                  />
+                </div>
+              ) : stat.showFlag && stat.flags ? (
+                <h1 style={{ fontSize: isMobile ? '2rem' : '4rem' }}>
+                  {stat.flags.join(' ')}
+                </h1>
+              ) : (
+                <MaskText phrases={new Array(stat.number)} tag="h1" />
+              )}
               <MaskText phrases={new Array(stat.subtitle)} tag="p" />
             </Stat>
           ))}

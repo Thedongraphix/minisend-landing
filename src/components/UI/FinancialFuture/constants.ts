@@ -1,5 +1,8 @@
 import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
 import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
+import base_logo from '../../../../public/brandkit/Base_lockup_white.svg';
+import usdc_logo from '../../../../public/brandkit/usdc.svg';
+
 export const cardsInfo = [
   {
     title: 'For Creators',
@@ -19,18 +22,26 @@ export const stats = [
   {
     number: '2',
     subtitle: 'countries',
+    showFlag: true,
+    flags: ['🇰🇪', '🇳🇬'], // Kenya and Nigeria flags
   },
   {
     number: 'KES & NGN',
     subtitle: 'currencies',
+    showFlag: true,
+    flags: ['🇰🇪', '🇳🇬'],
   },
   {
-    number: 'Base',
+    number: '',
     subtitle: 'network',
+    logo: base_logo,
+    isLogo: true,
   },
   {
-    number: 'USDC',
+    number: '',
     subtitle: 'supported',
+    logo: usdc_logo,
+    isLogo: true,
   },
 ];
 
