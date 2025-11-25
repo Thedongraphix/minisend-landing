@@ -17,8 +17,12 @@ const HeroSection = () => {
   return (
     <Wrapper>
       <Inner>
-        <Pill>
-          <span>Introducing Raft cards</span>
+        <Pill
+          href="https://farcaster.xyz/miniapps/pXYzGNnbBFu6/minisend"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Launch on Farcaster</span>
           <Image src={ic_chevron_right} alt="chevron-right" />
         </Pill>
         <HeroTextContainer>

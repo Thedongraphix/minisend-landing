@@ -4,53 +4,53 @@ import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Making Crypto', 'Truly Spendable'];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  'Your onchain earnings should work in the real world.',
+  'Minisend makes it simple to convert and spend your USDC locally.',
 ];
 export const desktopBriefNotePhrase = [
-  'Smart investments,',
-  'secure payments, and',
-  'expert guidance, all in',
-  'one place.',
+  'Instant settlements,',
+  'transparent fees, and',
+  'real-time tracking, all',
+  'on Base.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+export const mobileHeaderPhrase = ['Making Crypto', 'Truly Spendable'];
 export const mobileParagraphPhrase = [
-  'We believe that managing your finances should be',
-  "effortless and cost-effective. That's why we offer",
-  ' you the freedom you deserve.',
+  'Your onchain earnings should work in the real',
+  'world. Minisend makes it simple to convert and',
+  'spend your USDC locally.',
 ];
 
 export const mobileBriefNotePhrase = [
-  'Smart',
-  ' investments,',
-  'secure',
-  ' payments,',
-  'and expert',
-  'guidance, all',
-  'in one place.',
+  'Instant',
+  'settlements,',
+  'transparent',
+  'fees, and',
+  'real-time',
+  'tracking, all',
+  'on Base.',
 ];
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
+    point: 'Kenya: M-Pesa',
     details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
+      'Convert USDC to Kenyan Shillings with instant delivery to Safaricom and Airtel Money mobile wallets.',
     icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
+    point: 'Nigeria: Bank Transfer',
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
+      'Convert USDC to Nigerian Naira with same-day settlement to all major Nigerian banks.',
     icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
+    point: 'Expanding Globally',
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
+      'Starting in Kenya and Nigeria, with plans to expand to more African markets and beyond.',
     icon: ic_arrows_left_right,
   },
 ];

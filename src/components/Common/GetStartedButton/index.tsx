@@ -7,9 +7,11 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       style={{
         padding: padding,
       }}
-      href="/"
+      href="https://app.minisend.xyz"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      Get Started
+      Launch App
     </LinkTo>
   );
 };

@@ -3,8 +3,22 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Raft',
-  description: 'Building the future of banking',
+  title: 'Minisend - Onchain earnings truly spendable',
+  description: 'Convert your USDC to local currency instantly. Built for creators and builders on Base Network.',
+  icons: {
+    icon: [
+      { url: '/brandkit/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/brandkit/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/brandkit/favicon.ico', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/brandkit/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/brandkit/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/brandkit/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({

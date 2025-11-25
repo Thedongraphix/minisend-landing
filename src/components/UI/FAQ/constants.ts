@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'How does Minisend work?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Minisend converts your USDC to local currency (KES or NGN) instantly. Simply connect your wallet, enter the amount, and provide your M-Pesa number or bank account details. Funds are delivered within minutes.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'Which countries does Minisend support?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'We currently support Kenya (M-Pesa) and Nigeria (bank transfers). We are actively expanding to more African markets to serve more creators and builders.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'What are the fees for conversions?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Minisend charges transparent, competitive fees with real-time exchange rates. Transactions on Base Network are gasless, meaning no blockchain fees for users.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Is Minisend secure?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes. Minisend is built on Base Network with enterprise-grade security. We use OnchainKit for wallet connections and provide real-time transaction monitoring. Your funds and data are protected throughout the conversion process.',
   },
 ];

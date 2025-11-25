@@ -7,8 +7,13 @@ export const LinkTo = styled(Link)`
   justify-content: center;
   align-items: center;
   border-radius: 6.25rem;
-  background: var(--green);
+  background: var(--purple);
   color: var(--white);
   font-size: 1rem;
   font-weight: 600;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: var(--purple-hover);
+  }
 `;

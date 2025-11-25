@@ -33,7 +33,7 @@ const IntroSection = () => {
     <Wrapper>
       <Inner>
         <Header>
-          <h3>Introducing</h3>
+          <h3>How It Works</h3>
           <HeaderMainText>
             {isMobile ? (
               <>

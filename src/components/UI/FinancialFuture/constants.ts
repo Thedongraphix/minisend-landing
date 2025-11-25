@@ -2,56 +2,56 @@ import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
 import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
 export const cardsInfo = [
   {
-    title: 'Spend Better',
+    title: 'For Creators',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'Convert your Frame tips, token rewards, and creator earnings from Farcaster into local currency you can actually spend.',
     icon: ic_money_send,
   },
   {
-    title: 'Invest Better',
+    title: 'For Builders',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'Integrate offramp functionality into your dApp with our API. Enable your users to cash out their onchain earnings seamlessly.',
     icon: ic_wallet_minus,
   },
 ];
 
 export const stats = [
   {
-    number: '50+',
-    subtitle: 'cities',
+    number: '2',
+    subtitle: 'countries',
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
+    number: 'KES & NGN',
+    subtitle: 'currencies',
   },
   {
-    number: '3M+',
-    subtitle: 'users',
+    number: 'Base',
+    subtitle: 'network',
   },
   {
-    number: '5+',
-    subtitle: 'user ratings',
+    number: 'USDC',
+    subtitle: 'supported',
   },
 ];
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Confidently Shape Your',
-  'Financial Future',
+  'Built on Base Network',
+  'for the Creator Economy',
 ];
 export const desktopParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape your financial future. Our modern',
-  'approach simplifies saving and investing, making it easier than ever.',
+  'Minisend leverages Base Network for fast, low-cost transactions.',
+  'Join the growing ecosystem of creators and builders making crypto spendable.',
 ];
 
 // For mobile
 export const mobileHeaderPhrase = [
-  'Confidently Shape',
-  ' Your Financial Future',
+  'Built on Base Network',
+  'for the Creator Economy',
 ];
 export const mobileParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape',
-  'your financial future. Our modern approach',
-  'simplifies saving and investing, making it easier',
-  'than ever.',
+  'Minisend leverages Base Network for fast,',
+  'low-cost transactions. Join the growing',
+  'ecosystem of creators and builders making',
+  'crypto spendable.',
 ];

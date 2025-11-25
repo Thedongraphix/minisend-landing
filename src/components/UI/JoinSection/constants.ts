@@ -12,34 +12,34 @@ export type Props = {
 export const testimonials = [
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
+      "Minisend makes it so easy to convert my Farcaster tips to actual spending money. I can pay my bills with my creator earnings now. This is the future of the creator economy!",
     person: 'Robert Fox',
     avatar: robert_fox,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
+      "As a builder on Base, Minisend solved a major problem for my users. Now they can cash out their earnings directly to M-Pesa. The API integration was straightforward and well-documented.",
     person: 'Cameron Williamson',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
+      "I was skeptical about crypto until Minisend. Now I can actually use my USDC to pay for real things. The conversion to KES is instant and the fees are transparent. Game changer!",
     person: 'Esther Howard',
     avatar: esther_howard,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
+      "As a builder on Base, Minisend solved a major problem for my users. Now they can cash out their earnings directly to M-Pesa. The API integration was straightforward and well-documented.",
     person: 'Cameron Williamson',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
+      "Minisend makes it so easy to convert my Farcaster tips to actual spending money. I can pay my bills with my creator earnings now. This is the future of the creator economy!",
     person: 'Robert Fox',
     avatar: robert_fox,
   },
 ];
 
-export const desktopHeaderPhrase = ['Join over 3 million', 'members'];
+export const desktopHeaderPhrase = ['Trusted by creators', 'and builders'];

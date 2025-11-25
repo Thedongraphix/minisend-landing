@@ -3,39 +3,39 @@ import ic_identification from '../../../../public/svgs/ic_identification.svg';
 import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ["Introducing RAFT's Next-", 'Gen Cards'];
+export const desktopHeaderPhrase = ['Seamless USDC to Fiat', 'Conversion'];
 export const desktopParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards. Elevate your banking",
-  'experience with cutting-edge features, security, and unprecedented',
-  'convenience.',
+  'Minisend bridges the gap between crypto and everyday spending.',
+  'Convert USDC to KES or NGN and receive funds directly to',
+  'M-Pesa or your bank account.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Introducing RAFT's", 'Next-Gen Cards'];
+export const mobileHeaderPhrase = ['Seamless USDC', 'to Fiat Conversion'];
 export const mobileParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards.",
-  ' Elevate your banking experience with cutting-edge',
-  'features, security, and unprecedented',
-  'convenience.',
+  'Minisend bridges the gap between crypto and',
+  'everyday spending. Convert USDC to KES or NGN',
+  'and receive funds directly to M-Pesa or your',
+  'bank account.',
 ];
 
 export const edges = [
   {
-    point: 'Contactless Technology',
+    point: 'Multi-Currency Support',
     details:
-      'Our new cards come equipped with contactless technology, allowing you to make swift, secure payments with a simple tap.',
+      'Convert USDC to Kenyan Shillings (KES) via M-Pesa or Nigerian Naira (NGN) via bank transfer with competitive exchange rates.',
     icon: ic_document_duplicate,
   },
   {
-    point: 'Personalization',
+    point: 'Built on Base',
     details:
-      'Customize your card to reflect your unique style. Choose from a range of designs that suit your personality.',
+      'Leveraging Base Network for fast, low-cost transactions with gasless conversions for seamless user experience.',
     icon: ic_identification,
   },
   {
-    point: 'Enhanced Security',
+    point: 'Secure & Transparent',
     details:
-      'Your peace of mind is our priority. Our cards feature advanced security measures to protect your transactions and data.',
+      'Real-time transaction monitoring with transparent fee structure. Your funds are protected with enterprise-grade security.',
     icon: ic_lock_closed,
   },
 ];

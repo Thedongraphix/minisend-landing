@@ -21,11 +21,21 @@ export const Inner = styled.div`
 `;
 
 export const LogoContainer = styled.div`
+  img {
+    width: auto;
+    height: 3.5rem; /* Desktop logo size - adjust this value to make logo bigger/smaller */
+    object-fit: contain;
+  }
+
   @media (max-width: 768px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
+    img {
+      height: 2.5rem; /* Mobile logo size - adjust this value for mobile */
+    }
   }
 `;
 

@@ -4,44 +4,44 @@ import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+  'Built for Creators',
+  'and Builders',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+  'Minisend empowers the Farcaster creator economy and Base Network builders',
+  'with instant crypto-to-fiat infrastructure. Turn your earnings into spendable cash.',
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'Minisend empowers the Farcaster creator economy',
+  'and Base Network builders with instant crypto-to-fiat',
+  'infrastructure. Turn your earnings into spendable cash.',
 ];
 
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: 'Instant Conversions',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      'Convert USDC to local currency in seconds with near-instant settlement to M-Pesa or bank accounts.',
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'Farcaster Native',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Access Minisend directly from Farcaster. Convert your Frame tips and creator earnings with one click.',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'Developer Friendly',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'Integrate offramp functionality into your dApp with our RESTful API and comprehensive documentation.',
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'Low Fees',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Transparent pricing with competitive exchange rates and gasless transactions on Base Network.',
   },
 ];

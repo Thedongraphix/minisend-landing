@@ -19,13 +19,15 @@ export const Inner = styled.main`
 `;
 
 export const FooterLogo = styled.div`
+  img {
+    width: auto;
+    height: 4rem; /* Desktop footer logo size - adjust this value to make logo bigger/smaller */
+    object-fit: contain;
+  }
+
   @media (max-width: 768px) {
-    width: 13.2rem;
-    height: 5.6rem;
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
+      height: 3rem; /* Mobile footer logo size - adjust this value for mobile */
     }
   }
 `;
