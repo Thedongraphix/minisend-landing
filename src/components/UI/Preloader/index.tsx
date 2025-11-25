@@ -11,9 +11,9 @@ const Preloader = ({
 }: {
   setComplete: Dispatch<SetStateAction<boolean>>;
 }) => {
-  const word = ['R', 'a', 'f', 't'];
+  const word = ['M', 'i', 'n', 'i', 's', 'e', 'n', 'd'];
 
-  const spans = useRef<any>([]); // Create a ref to store the span elements
+  const spans = useRef<(HTMLDivElement | null)[]>([]); // Create a ref to store the span elements
   const imageRef = useRef(null);
   const secondOverlayRef = useRef(null);
   const wrapperRef = useRef(null);
@@ -67,7 +67,9 @@ const Preloader = ({
             {word.map((t, i) => (
               <div
                 key={i}
-                ref={(element) => (spans.current[i] = element)} // Assign ref to each span
+                ref={(element) => {
+                  spans.current[i] = element;
+                }} // Assign ref to each span
               >
                 {t}
               </div>
