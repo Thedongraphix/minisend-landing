@@ -25,15 +25,15 @@ const Header = () => {
       <Inner>
         <LogoContainer>
           <Image src={minisend_white} alt="minisend logo" priority />
-          <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
-            <motion.div
-              variants={menu}
-              animate={isOpen ? 'open' : 'closed'}
-              initial="closed"
-            ></motion.div>
-            <Image src={ic_bars} alt="bars" />
-          </BurgerMenu>
         </LogoContainer>
+        <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
+          <motion.div
+            variants={menu}
+            animate={isOpen ? 'open' : 'closed'}
+            initial="closed"
+          ></motion.div>
+          <Image src={ic_bars} alt="bars" />
+        </BurgerMenu>
         <Nav className={isOpen ? 'active' : ''}>
           {links.map((link, i) => (
             <AnimatedLink key={i} title={link.linkTo} />

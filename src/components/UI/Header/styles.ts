@@ -17,10 +17,7 @@ export const Inner = styled.div`
   width: 90%;
   max-width: 1440px;
   margin: 0 auto;
-
-  @media (max-width: 768px) {
-    gap: 1rem; /* Add spacing between logo and hamburger */
-  }
+  position: relative;
 `;
 
 export const LogoContainer = styled.div`
@@ -34,8 +31,6 @@ export const LogoContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    flex: 0 0 auto; /* Prevent logo from stretching */
-
     img {
       height: 4.5rem; /* Mobile logo size - adjust this value for mobile */
     }
@@ -44,14 +39,11 @@ export const LogoContainer = styled.div`
 
 export const BurgerMenu = styled.div`
   display: none;
-  position: relative;
 
   @media (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    position: relative;
     padding: 0.5rem;
-    margin-left: auto; /* Push to the right */
 
     div {
       position: absolute;
