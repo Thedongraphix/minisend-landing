@@ -61,7 +61,22 @@ export const QRContainer = styled.div`
   border: 1px dashed var(--White, #fff);
 `;
 
-export const QRImageCtn = styled.div``;
+export const QRImageCtn = styled.div`
+  width: 6rem;
+  height: 6rem;
+  flex-shrink: 0;
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    width: 5rem;
+    height: 5rem;
+  }
+`;
 
 export const TextCtn = styled.div`
   display: flex;
