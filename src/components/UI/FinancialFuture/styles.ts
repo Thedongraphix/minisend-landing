@@ -141,6 +141,7 @@ export const Stat = styled.div`
   h1 {
     font-size: 5rem;
     font-weight: 600;
+    color: var(--purple); /* Purple accent for stat numbers */
   }
 
   p {
