@@ -40,22 +40,21 @@ export const stats = [
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Built on Base Network',
+  'Built on Base',
   'for the Creator Economy',
 ];
 export const desktopParagraphPhrase = [
-  'Minisend leverages Base Network for fast, low-cost transactions.',
-  'Join the growing ecosystem of creators and builders making crypto spendable.',
+  'Available on Farcaster and Base app. Fast, low-cost transactions',
+  'for creators and builders making crypto spendable.',
 ];
 
 // For mobile
 export const mobileHeaderPhrase = [
-  'Built on Base Network',
+  'Built on Base',
   'for the Creator Economy',
 ];
 export const mobileParagraphPhrase = [
-  'Minisend leverages Base Network for fast,',
-  'low-cost transactions. Join the growing',
-  'ecosystem of creators and builders making',
-  'crypto spendable.',
+  'Available on Farcaster and Base app.',
+  'Fast, low-cost transactions for creators',
+  'and builders making crypto spendable.',
 ];

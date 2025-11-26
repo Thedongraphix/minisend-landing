@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Minisend - Onchain earnings truly spendable',
-  description: 'Convert your USDC to local currency instantly. Built for creators and builders on Base Network.',
-  keywords: ['USDC', 'crypto', 'fiat', 'offramp', 'Base Network', 'Farcaster', 'Kenya', 'Nigeria', 'M-Pesa', 'crypto conversion', 'onchain earnings'],
+  description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app. Built for creators and builders.',
+  keywords: ['USDC', 'crypto', 'fiat', 'offramp', 'Base', 'Base chain', 'Farcaster', 'Kenya', 'Nigeria', 'M-Pesa', 'crypto conversion', 'onchain earnings'],
   authors: [{ name: 'Minisend' }],
   creator: 'Minisend',
   publisher: 'Minisend',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://minisend.xyz',
     siteName: 'Minisend',
     title: 'Minisend - Onchain earnings truly spendable',
-    description: 'Convert your USDC to local currency instantly. Built for creators and builders on Base Network. Support for Kenya (M-Pesa) and Nigeria (Bank transfers).',
+    description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app. Support for Kenya (M-Pesa) and Nigeria (Bank transfers).',
     images: [
       {
         url: '/brandkit/android-chrome-512x512.png',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Minisend - Onchain earnings truly spendable',
-    description: 'Convert your USDC to local currency instantly. Built for creators and builders on Base Network.',
+    description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app.',
     creator: '@minisendapp',
     images: ['/brandkit/android-chrome-512x512.png'],
   },

@@ -29,7 +29,7 @@ export const edges = [
   {
     point: 'Built on Base',
     details:
-      'Leveraging Base Network for fast, low-cost transactions with gasless conversions for seamless user experience.',
+      'Leveraging Base chain for fast, low-cost transactions with gasless conversions for seamless user experience.',
     icon: ic_identification,
   },
   {

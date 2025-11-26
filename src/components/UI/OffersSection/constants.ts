@@ -8,14 +8,14 @@ export const desktopHeaderPhrases = [
   'and Builders',
 ];
 export const desktopParagraphPhrase = [
-  'Minisend empowers the Farcaster creator economy and Base Network builders',
+  'Minisend empowers the Farcaster creator economy and Base builders',
   'with instant crypto-to-fiat infrastructure. Turn your earnings into spendable cash.',
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
   'Minisend empowers the Farcaster creator economy',
-  'and Base Network builders with instant crypto-to-fiat',
+  'and Base builders with instant crypto-to-fiat',
   'infrastructure. Turn your earnings into spendable cash.',
 ];
 
@@ -42,6 +42,6 @@ export const offers = [
     illustration: financial_planning,
     title: 'Low Fees',
     details:
-      'Transparent pricing with competitive exchange rates and gasless transactions on Base Network.',
+      'Transparent pricing with competitive exchange rates and gasless transactions on Base.',
   },
 ];

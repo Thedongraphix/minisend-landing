@@ -31,11 +31,11 @@ export const faqData: FAQItem[] = [
   {
     question: 'What are the fees for conversions?',
     answer:
-      'Minisend charges transparent, competitive fees with real-time exchange rates. Transactions on Base Network are gasless, meaning no blockchain fees for users.',
+      'Minisend charges transparent, competitive fees with real-time exchange rates. Transactions on Base are gasless, meaning no blockchain fees for users.',
   },
   {
     question: 'Is Minisend secure?',
     answer:
-      'Yes. Minisend is built on Base Network with enterprise-grade security. We use OnchainKit for wallet connections and provide real-time transaction monitoring. Your funds and data are protected throughout the conversion process.',
+      'Yes. Minisend is built on Base with enterprise-grade security. We use OnchainKit for wallet connections and provide real-time transaction monitoring. Your funds and data are protected throughout the conversion process.',
   },
 ];
