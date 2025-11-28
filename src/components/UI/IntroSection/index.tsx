@@ -48,7 +48,7 @@ const IntroSection = () => {
             )}
           </HeaderMainText>
         </Header>
-        <CardsContainer>
+        {/* <CardsContainer>
           <LeftImage
             className={isHovered ? 'active' : ''}
             src={orange_card}
@@ -65,7 +65,7 @@ const IntroSection = () => {
             src={terry_card}
             alt="terry card"
           />
-        </CardsContainer>
+        </CardsContainer> */}
         <Edges>
           {edges.map((edge, i) => (
             <Edge key={i}>
