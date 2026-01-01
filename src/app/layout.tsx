@@ -1,16 +1,49 @@
 import Layout from '@/components/Layout';
+import { StructuredData, FAQStructuredData } from '@/components';
 import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Minisend - Onchain earnings truly spendable',
-  description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app. Built for creators and builders.',
-  keywords: ['USDC', 'crypto', 'fiat', 'offramp', 'Base', 'Base chain', 'Farcaster', 'Kenya', 'Nigeria', 'M-Pesa', 'crypto conversion', 'onchain earnings'],
-  authors: [{ name: 'Minisend' }],
+  title: {
+    default: 'Minisend - Onchain earnings truly spendable',
+    template: '%s | Minisend',
+  },
+  description: 'Convert your USDC to local currency instantly on Base app. Over $120k processed. Built for creators and builders in Kenya, Nigeria, and Ghana.',
+  keywords: [
+    'USDC',
+    'USDC to fiat',
+    'crypto offramp',
+    'crypto to cash',
+    'Base app',
+    'Base chain',
+    'Base',
+    'Base network',
+    'Kenya crypto',
+    'Nigeria crypto',
+    'Ghana crypto',
+    'M-Pesa',
+    'crypto conversion',
+    'onchain earnings',
+    'USDC Kenya',
+    'USDC Nigeria',
+    'USDC Ghana',
+    'cryptocurrency exchange',
+    'stablecoin to fiat',
+    'Base wallet',
+    'web3 payments',
+    'DeFi offramp',
+    'African crypto',
+  ],
+  authors: [{ name: 'Minisend', url: 'https://minisend.xyz' }],
   creator: 'Minisend',
   publisher: 'Minisend',
   applicationName: 'Minisend',
   metadataBase: new URL('https://minisend.xyz'),
+  alternates: {
+    canonical: 'https://minisend.xyz',
+  },
+  category: 'Finance',
+  classification: 'Financial Technology',
 
   openGraph: {
     type: 'website',
@@ -18,24 +51,38 @@ export const metadata: Metadata = {
     url: 'https://minisend.xyz',
     siteName: 'Minisend',
     title: 'Minisend - Onchain earnings truly spendable',
-    description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app. Support for Kenya (M-Pesa) and Nigeria (Bank transfers).',
+    description: 'Convert your USDC to local currency instantly on Base app. Over $120k processed. Support for Kenya (M-Pesa), Nigeria, and Ghana.',
     images: [
       {
-        url: '/brandkit/android-chrome-512x512.png',
+        url: 'https://minisend.xyz/brandkit/minisend-logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Minisend - Convert USDC to local currency',
+        type: 'image/png',
+      },
+      {
+        url: 'https://minisend.xyz/brandkit/android-chrome-512x512.png',
         width: 512,
         height: 512,
         alt: 'Minisend Logo',
+        type: 'image/png',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Minisend - Onchain earnings truly spendable',
-    description: 'Convert your USDC to local currency instantly. Available on Farcaster and Base app.',
+    site: '@minisendapp',
     creator: '@minisendapp',
-    images: ['/brandkit/android-chrome-512x512.png'],
+    title: 'Minisend - Onchain earnings truly spendable',
+    description: 'Convert your USDC to local currency instantly on Base app. Over $120k processed. Support for Kenya, Nigeria, and Ghana.',
+    images: {
+      url: 'https://minisend.xyz/brandkit/minisend-logo.png',
+      alt: 'Minisend - Convert USDC to local currency',
+    },
   },
+
+  manifest: '/site.webmanifest',
 
   icons: {
     icon: [
@@ -78,6 +125,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+        <FAQStructuredData />
+      </head>
       <body>
         <Layout>{children}</Layout>
       </body>
