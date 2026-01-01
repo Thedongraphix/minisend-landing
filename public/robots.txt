@@ -1,0 +1,20 @@
+# Robots.txt for Minisend
+# https://minisend.xyz
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://minisend.xyz/sitemap.xml
+
+# Crawl-delay for specific bots (optional)
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0
+
+# Disallow access to specific files/directories if needed
+Disallow: /api/
+Disallow: /_next/static/
