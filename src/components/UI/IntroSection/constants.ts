@@ -5,8 +5,8 @@ import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
 // For desktop
 export const desktopHeaderPhrase = ['Seamless USDC to Fiat', 'Conversion'];
 export const desktopParagraphPhrase = [
-  'Minisend bridges the gap between crypto and everyday spending.',
-  'Convert USDC to KES or NGN and receive funds directly to',
+  'Minisend bridges the gap between crypto and everyday spending on Base.',
+  'Convert USDC to KES, NGN, or GHS and receive funds directly to',
   'M-Pesa or your bank account.',
 ];
 
@@ -14,16 +14,16 @@ export const desktopParagraphPhrase = [
 export const mobileHeaderPhrase = ['Seamless USDC', 'to Fiat Conversion'];
 export const mobileParagraphPhrase = [
   'Minisend bridges the gap between crypto and',
-  'everyday spending. Convert USDC to KES or NGN',
-  'and receive funds directly to M-Pesa or your',
-  'bank account.',
+  'everyday spending on Base. Convert USDC to',
+  'KES, NGN, or GHS and receive funds directly to',
+  'M-Pesa or your bank account.',
 ];
 
 export const edges = [
   {
     point: 'Multi-Currency Support',
     details:
-      'Convert USDC to Kenyan Shillings (KES) via M-Pesa or Nigerian Naira (NGN) via bank transfer with competitive exchange rates.',
+      'Convert USDC to Kenyan Shillings (KES) via M-Pesa, Nigerian Naira (NGN), or Ghanaian Cedi (GHS) via bank transfer with competitive exchange rates.',
     icon: ic_document_duplicate,
   },
   {

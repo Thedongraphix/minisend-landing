@@ -8,15 +8,16 @@ export const desktopHeaderPhrases = [
   'and Builders',
 ];
 export const desktopParagraphPhrase = [
-  'Minisend empowers the Farcaster creator economy and Base builders',
+  'Minisend empowers Base builders and the Farcaster creator economy',
   'with instant crypto-to-fiat infrastructure. Turn your earnings into spendable cash.',
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'Minisend empowers the Farcaster creator economy',
-  'and Base builders with instant crypto-to-fiat',
-  'infrastructure. Turn your earnings into spendable cash.',
+  'Minisend empowers Base builders and the',
+  'Farcaster creator economy with instant',
+  'crypto-to-fiat infrastructure. Turn your earnings',
+  'into spendable cash.',
 ];
 
 export const offers = [
@@ -28,9 +29,9 @@ export const offers = [
   },
   {
     illustration: smart_investing,
-    title: 'Farcaster Native',
+    title: 'Base App Native',
     details:
-      'Access Minisend directly from Farcaster. Convert your Frame tips and creator earnings with one click.',
+      'Access Minisend directly on Base app - your primary gateway to convert USDC earnings. Also available on Farcaster for Frame tips and creator earnings.',
   },
   {
     illustration: wealth_management,
