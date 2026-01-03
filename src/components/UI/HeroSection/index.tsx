@@ -18,11 +18,11 @@ const HeroSection = () => {
     <Wrapper>
       <Inner>
         <Pill
-          href="https://farcaster.xyz/miniapps/pXYzGNnbBFu6/minisend"
+          href="https://base.app/app/app.minisend.xyz"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>Launch on Farcaster</span>
+          <span>Launch on Baseapp</span>
           <Image src={ic_chevron_right} alt="chevron-right" />
         </Pill>
         <HeroTextContainer>
