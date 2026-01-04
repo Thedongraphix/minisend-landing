@@ -10,9 +10,9 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://minisend.xyz/brandkit/minisend-logo.png</image:loc>
+      <image:loc>https://minisend.xyz/brandkit/android-chrome-512x512.png</image:loc>
       <image:title>Minisend Logo</image:title>
-      <image:caption>Convert your USDC to local currency instantly</image:caption>
+      <image:caption>Convert your USDC to local currency instantly on Base app</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://minisend.xyz/brandkit/android-chrome-512x512.png</image:loc>
