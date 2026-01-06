@@ -1,9 +1,9 @@
-import Script from 'next/script';
 import { faqData } from '@/components/UI/FAQ/constants';
 
 /**
  * FAQ Structured Data (JSON-LD) for enhanced SEO
  * Helps Google display rich FAQ snippets in search results
+ * Using regular script tag (not Next.js Script) for server-side rendering
  */
 export default function FAQStructuredData() {
   const faqSchema = {
@@ -20,8 +20,7 @@ export default function FAQStructuredData() {
   };
 
   return (
-    <Script
-      id="faq-schema"
+    <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
     />

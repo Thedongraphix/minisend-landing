@@ -1,8 +1,7 @@
-import Script from 'next/script';
-
 /**
  * Structured Data (JSON-LD) component for SEO
  * This is critical for Google to display the logo in search results
+ * Using regular script tags (not Next.js Script) for server-side rendering
  */
 export default function StructuredData() {
   const organizationSchema = {
@@ -80,23 +79,19 @@ export default function StructuredData() {
 
   return (
     <>
-      <Script
-        id="organization-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-      <Script
-        id="website-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
-      <Script
-        id="web-application-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webApplicationSchema) }}
       />
-      <Script
-        id="breadcrumb-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
