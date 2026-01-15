@@ -14,6 +14,7 @@ export default function StructuredData() {
     foundingDate: '2024',
     sameAs: [
       'https://twitter.com/minisendapp',
+      'https://base.app/app/app.minisend.xyz',
       'https://www.base.org',
       'https://farcaster.xyz/miniapps/pXYzGNnbBFu6/minisend',
     ],

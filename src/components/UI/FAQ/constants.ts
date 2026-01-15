@@ -21,7 +21,7 @@ export const faqData: FAQItem[] = [
   {
     question: 'How does Minisend work?',
     answer:
-      'Connect your wallet on Base app, enter the USDC amount, provide your M-Pesa or bank details, and receive local currency (KES, NGN, or GHS) in minutes.',
+      'Connect your wallet on Base app, enter USDC amount, provide M-Pesa or bank details, and receive KES, NGN, or GHS in minutes.',
   },
   {
     question: 'Which countries does Minisend support?',
@@ -31,12 +31,12 @@ export const faqData: FAQItem[] = [
   {
     question: 'What are the fees?',
     answer:
-      'We charge competitive fees with real-time exchange rates. All Base transactions are gasless - no blockchain fees.',
+      'Competitive fees with real-time rates. All Base transactions are gasless.',
   },
   {
     question: 'Is Minisend secure?',
     answer:
-      'Yes. Built on Base with enterprise-grade security and real-time transaction monitoring.',
+      'Yes. Built on Base with enterprise-grade security and real-time monitoring.',
   },
   {
     question: 'How do I access Minisend?',
@@ -44,8 +44,8 @@ export const faqData: FAQItem[] = [
       'Open Base app and search for Minisend, or visit app.minisend.xyz. Also available on Farcaster.',
   },
   {
-    question: 'How long does it take to receive funds?',
+    question: 'How long to receive funds?',
     answer:
-      'M-Pesa (Kenya): 2-5 minutes. Bank transfers (Nigeria & Ghana): 5-30 minutes.',
+      'M-Pesa (Kenya): ~10 seconds. Bank transfers (Nigeria & Ghana): 5-30 minutes.',
   },
 ];

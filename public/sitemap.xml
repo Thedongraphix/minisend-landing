@@ -6,25 +6,30 @@
   <!-- Homepage -->
   <url>
     <loc>https://minisend.xyz</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://minisend.xyz/brandkit/android-chrome-512x512.png</image:loc>
       <image:title>Minisend Logo</image:title>
-      <image:caption>Convert your USDC to local currency instantly on Base app</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://minisend.xyz/brandkit/android-chrome-512x512.png</image:loc>
-      <image:title>Minisend App Icon</image:title>
+      <image:caption>Convert USDC to local currency on Base app - Kenya, Nigeria, Ghana</image:caption>
     </image:image>
   </url>
 
-  <!-- App link (external) -->
+  <!-- Main App -->
   <url>
     <loc>https://app.minisend.xyz</loc>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Base App Listing -->
+  <url>
+    <loc>https://base.app/app/app.minisend.xyz</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
