@@ -126,8 +126,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <StructuredData />
-        <FAQStructuredData />
+        <link rel="canonical" href="https://minisend.xyz" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" type="image/png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/brandkit/android-chrome-512x512.png" color="#5bbad5" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </head>
       <body>
         <StructuredData />
