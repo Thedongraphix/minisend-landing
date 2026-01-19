@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     site: '@minisendapp',
     creator: '@minisendapp',
     title: 'Minisend - Onchain earnings truly spendable',
-    description: 'Convert your USDC to local currency instantly on Base app. Over $120k processed. Support for Kenya, Nigeria, and Ghana.',
+    description: 'Convert your USDC to local currency instantly on Base app. Built for creators and builders in Kenya, Nigeria, and Ghana.',
     images: {
       url: 'https://minisend.xyz/brandkit/minisend-logo.png',
       alt: 'Minisend - Convert USDC to local currency',
