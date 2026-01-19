@@ -86,16 +86,18 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: '/favicon.ico' },
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/brandkit/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
     ],
+    shortcut: ['/favicon.ico'],
     apple: [
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
-      { url: '/brandkit/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/brandkit/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+      { url: '/brandkit/android-chrome-192x192.png', sizes: '192x192', type: 'image/png', rel: 'icon' },
+      { url: '/brandkit/android-chrome-512x512.png', sizes: '512x512', type: 'image/png', rel: 'icon' },
     ],
   },
 
@@ -126,6 +128,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta charSet='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Convert your USDC to local currency instantly on Base app. Over $120k processed. Built for creators and builders in Kenya, Nigeria, and Ghana." />
+        <meta name="keywords" content="USDC, USDC to fiat, crypto offramp, crypto to cash, Base app, Base chain, Base, Base network, Kenya crypto, Nigeria crypto, Ghana crypto, M-Pesa, crypto conversion, onchain earnings, USDC Kenya, USDC Nigeria, USDC Ghana, cryptocurrency exchange, stablecoin to fiat, Base wallet, web3 payments, DeFi offramp, African crypto" />
+        <meta name="author" content="Minisend" />
+        <meta name="publisher" content="Minisend" />
+        <meta name="application-name" content="Minisend" />
+        <meta name="theme-color" content="#6366f1" />
+        <meta name="background-color" content="#ffffff" />
+        <meta name="display" content="standalone" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Minisend" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Minisend" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Minisend" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Minisend" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Minisend" />
+
         <link rel="canonical" href="https://minisend.xyz" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
@@ -134,6 +162,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/brandkit/android-chrome-512x512.png" color="#5bbad5" />
         <link rel="shortcut icon" href="/favicon.ico" />
+
       </head>
       <body>
         <StructuredData />

@@ -9,7 +9,19 @@ export default function StructuredData() {
     '@type': 'Organization',
     name: 'Minisend',
     url: 'https://minisend.xyz',
-    logo: 'https://minisend.xyz/brandkit/android-chrome-512x512.png',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://minisend.xyz/brandkit/android-chrome-512x512.png',
+      width: 512,
+      height: 512,
+      contentUrl: 'https://minisend.xyz/brandkit/android-chrome-512x512.png',
+    },
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://minisend.xyz/brandkit/android-chrome-512x512.png',
+      width: 512,
+      height: 512,
+    },
     description: 'Convert your USDC to local currency instantly on Base app. Built for creators and builders in Kenya, Nigeria, and Ghana.',
     foundingDate: '2024',
     sameAs: [
