@@ -125,6 +125,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+        <FAQStructuredData />
+      </head>
       <body>
         <StructuredData />
         <FAQStructuredData />
