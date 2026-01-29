@@ -12,3 +12,4 @@ export { default as Footer } from './UI/Footer';
 export { default as MaskText } from './Common/MaskText';
 export { default as StructuredData } from './Common/StructuredData';
 export { default as FAQStructuredData } from './Common/FAQStructuredData';
+export { default as GoogleAnalytics } from './Common/GoogleAnalytics';
